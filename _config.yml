@@ -2,10 +2,10 @@
 #      Main Configs       #
 # ----------------------- #
 
-url: http://blefebvre.github.io
+url: http://brucelefebvre.com
 title: My Octopress Blog
 subtitle: A blogging framework for hackers.
-author: Your Name
+author: Bruce Lefebvre
 simple_search: http://google.com/search
 description:
 
