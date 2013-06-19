@@ -3,8 +3,8 @@
 # ----------------------- #
 
 url: http://brucelefebvre.com
-title: My Octopress Blog
-subtitle: A blogging framework for hackers.
+title: My Blog
+subtitle: brucelefebvre.com
 author: Bruce Lefebvre
 simple_search: http://google.com/search
 description:
@@ -89,7 +89,7 @@ disqus_short_name:
 disqus_show_comment_count: false
 
 # Google Analytics
-google_analytics_tracking_id:
+google_analytics_tracking_id: UA-41891145-1
 
 # Facebook Like
 facebook_like: false
