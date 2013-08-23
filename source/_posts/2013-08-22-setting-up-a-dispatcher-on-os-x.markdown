@@ -1,11 +1,11 @@
 ---
 layout: post
-title: "Setting up a Dispatcher with Apache on OS X"
-date: 2013-08-21 20:24
+title: "Setting up a Dispatcher on OS X"
+date: 2013-08-22 22:40
 comments: true
-categories: 
+categories: [AEM, CQ, dispatcher]
 ---
-The dispatcher is an important piece of a secure, stable, and performant AEM implementation. According to [the documentation](http://dev.day.com/docs/en/cq/current/deploying/dispatcher.html) it can provide caching, load balancing, as well as helping to protect your publish instances from attack. For such a multi-faceted tool it seems to receive very little attention during the dev process, typically called to action in the final stages of a deployment when most of the dev work has already been done. I propose that developers (including myself) could write better code if they had a deeper understanding of this tool, which is why I went through the process of setting one up on my Mac. What follows are my notes.
+The dispatcher is an important piece of a secure, stable, and solidly-performing AEM implementation. According to [the documentation](http://dev.day.com/docs/en/cq/current/deploying/dispatcher.html) it can provide caching, load balancing, as well as help to protect your publish instances from attack. For such a multifaceted tool it seems to receive very little attention during the dev process, typically called to action in the final stages of a deployment when most of the dev work has already been done. I propose that developers (including myself) could write better code if they had a deeper understanding of this tool, which is why I went through the process of setting one up on my Mac. What follows are my notes.
 
 Here's what you'll need to get started:
 
