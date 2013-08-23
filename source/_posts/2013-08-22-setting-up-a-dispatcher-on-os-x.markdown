@@ -123,7 +123,7 @@ Stop Apache httpd:
 
 In another terminal window (or tab), tail the following log files for errors:
 
-	$ tail -f /var/log/apache2/error_log /var/log/apache2/error_log
+	$ tail -f /var/log/apache2/error_log /var/log/apache2/dispatcher.log
 
 Start Apache httpd back up:
 
