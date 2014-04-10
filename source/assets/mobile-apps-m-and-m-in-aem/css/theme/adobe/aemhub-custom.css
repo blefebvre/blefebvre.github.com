@@ -20,6 +20,11 @@ table.takeaways tr.numbers td {
 	text-align: center;
 }
 
+.cli-commands pre {
+	width:35%;
+	font-size: .7em;
+}
+
 .agenda pre {
 	font-family: source-code;
 	font-size: 1.2em;
@@ -98,4 +103,16 @@ table.technologies td {
 .reveal section img.no-bg {
 	background: none;
 	box-shadow: none;
+}
+
+.reveal pre.beer-art {
+	width: 19em;
+	border: 0;
+	box-shadow: none;
+}
+
+.reveal img.pg-build {
+	background: none; 
+	box-shadow: none;
+	width: 10em;
 }
