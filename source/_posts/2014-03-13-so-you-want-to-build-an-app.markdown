@@ -3,7 +3,7 @@ layout: post
 title: "So, you want to build an app"
 date: 2014-03-14 14:03
 comments: true
-categories: [AEM, CQ, PhoneGap, SUMMIT, AEM Hub, apps]
+categories: [AEM, CQ, PhoneGap, SUMMIT, AEMHub, apps]
 ---
 You've been approached by management and given orders to begin architecting a plan to get that ever-coveted place in the app store. Your peers at the office are devoted iOS fans - aside from that one guy, still touting the battery life of his flip phone - and expect to see your work in their preferred store, and soon. However, upon reviewing mobile browser analytics from your company's site, you notice a trend: not all traffic is from mobile Safari. Hits seem to be originating from Android browsers at about half the rate of Safari, and Google's Chrome browser is not far behind. Your office may be satisfied with an iPhone app, but how will your Android customers take it?
 

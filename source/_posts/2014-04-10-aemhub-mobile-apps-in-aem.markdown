@@ -3,7 +3,7 @@ layout: post
 title: "AEMHub - Mobile Apps in AEM"
 date: 2014-04-10 11:32
 comments: true
-categories: 
+categories: [AEM, CQ, PhoneGap, AEMHub, apps]
 ---
 My slides from AEMHub are available here: [Mobile apps: Made and managed in AEM](/assets/mobile-apps-m-and-m-in-aem/)
 
