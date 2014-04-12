@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "AEMHub - Mobile Apps in AEM"
+title: "AEMHub 2014: Mobile Apps in AEM"
 date: 2014-04-10 11:32
 comments: true
 categories: [AEM, CQ, PhoneGap, AEMHub, apps]
