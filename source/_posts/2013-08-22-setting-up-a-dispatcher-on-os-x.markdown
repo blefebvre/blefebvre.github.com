@@ -22,7 +22,7 @@ Figure out which version of Apache httpd you're working with:
 
 Download and extract the correct dispatcher version for your httpd:
 
-[https://dev.day.com/packageshare/packages/public/day/dispatcher.html](https://dev.day.com/packageshare/packages/public/day/dispatcher.html)
+[https://www.adobeaemcloud.com/content/companies/public/adobe/dispatcher/dispatcher.html](https://www.adobeaemcloud.com/content/companies/public/adobe/dispatcher/dispatcher.html)
 
 Inside the extracted directory you will find a file named 'dispatcher-apache&lt;version&gt;.so'. Copy this file to /usr/libexec/apache2. In my case:
 
@@ -92,7 +92,7 @@ From the extracted dispatcher directory, copy the provided dispatcher.any to con
 	$ cd ~/Downloads/dispatcher-apache2.2-darwin-x86-64-4.1.4/conf/
 	$ sudo cp dispatcher.any /etc/apache2/conf/
 
-Set the host name and port of your publish instance in dispatcher.any (search for the existing values):
+Open the copy of dispatcher.any with your editor of choice. Look for the '/renders' entry, and point the '/rend01' instance host name and port to your publish instance:
 
 	/hostname "127.0.0.1"
 	/port "4503"
