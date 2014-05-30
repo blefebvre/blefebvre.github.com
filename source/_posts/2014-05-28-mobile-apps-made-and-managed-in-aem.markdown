@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Mobile Apps: Made and managed in AEM"
-date: 2014-05-28 22:29
+date: 2014-05-30 00:07
 comments: true
 categories: [AEM, CQ, PhoneGap, ConnectWebex, apps]
 ---
@@ -9,7 +9,7 @@ I'm thrilled to be returning to Basel this summer to present at the conference f
 
 To frame the context of the integration between AEM and PhoneGap, I told a story of a hypothetical company looking to extend the reach of their content by [building a mobile app](/blog/2014/03/14/so-you-want-to-build-an-app/). Since presenting at both [Adobe SUMMIT](http://tv.adobe.com/watch/adobe-summit-2014/technical-session-mobile-app-development-and-content-management-with-aem/) and [AEMHub](/blog/2014/04/10/aemhub-mobile-apps-in-aem/), I've had a chance to work with some real, non-hypothetical customers, and have selected a few themes from these experiences to highlight for an audience of highly-technical AEM pros.
 
-Build it yourself, or leverage an existing library? Lean on jQuery/Zepto/xui, or forge on alone? AngularJS, Ember or Backbone? Bacon, ham or sausage? Today's web developer has options aplenty when it comes to building product - too many even, you might argue. As developers of mobile apps we must choose carefully to ensure we're simplifying our code base while not restricting our options as the platform evolves. We need be conscious that all the processing power and memory available to our app will fit into our user's pocket ('Note' users excluded). We must recognize that expectations of a mobile app are very different from that of the web, especially with regards to offline availability of content. As such, the decision of which 3rd party libraries to depend and build upon must be deeper than simply picking the flavour of the week. I'll dig into the libraries we've had success working with and describe the long (and somewhat bumpy) road that led us to them.
+Build it yourself, or leverage an existing library? Lean on jQuery/Zepto/xui, or forge on alone? AngularJS, Ember or Backbone? Bacon, ham or sausage? Today's web developer has options aplenty when it comes to building product - too many even, you might argue. As developers of mobile apps we must choose carefully to ensure we're simplifying our code base while not restricting our options as the platform evolves. We need to be conscious that all the processing power and memory available to our app will fit into our user's pocket ('Note' users excluded). We must recognize that expectations of a mobile app are very different from that of the web, especially with regards to offline availability of content. As such, the decision of which 3rd party libraries to depend and build upon must be deeper than simply picking the flavour of the week. I'll dig into the libraries we've had success working with and describe the long (and somewhat bumpy) road that led us to them.
 
 Whether dealing with products in a commerce scenario or physical properties in hospitality, app content often involves a set of items that should be rendered in a similar fashion. This type of data lends itself nicely to a template based approach, one that is well supported by AngularJS. I'll present one approach to structuring your data for consumption by AngularJS that results in a scalable - and maintainable - AEM app. 
 
@@ -18,9 +18,3 @@ PhoneGap's Javascript to native bridge is a key piece of the framework, one that
 See you there.
 
 [CONNECT Web Experience](http://www.connectcon.ch/2014/en.html)
-
-
-- How did we get here?
-- Integrating 3rd party code
-- Dealing with the device level APIs
-- Templates sharing on Angular's terms
