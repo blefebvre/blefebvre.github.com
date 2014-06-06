@@ -13,9 +13,9 @@ The folks at [IoT Ottawa](http://www.meetup.com/iotottawa/events/184276702/) hos
 
 As a cyclist and runner currently tracking my training using a number of devices (Garmin Edge, Forerunner, Strava iPhone app, Wahoo Kickr) and services (Strava, TrainerRoad, Fitbit) this talk really struck a chord with me. 
 
-In the most basic case, fitness wearables are simple accelerometers that interpret movement to calculate metrics including how many steps you've taken and floors you've climbed. When combined with some details of your physiology, they can estimate a number of other metrics including number of calories burned and total distance traveled. The next generation of wearables will be smarter, both in terms of the sensors they use and the way they analyze and interpret the signals they capture.
+In the most basic case, fitness wearables are simple accelerometers that interpret movement to calculate metrics including how many steps you've taken and floors you've climbed. When combined with some details of your physiology, they can estimate a number of other metrics including number of calories burned and total distance traveled. The next generation of wearables will be smarter, both in terms of the sensors they use and the way they analyze and interpret the signals captured.
 
-Advanced wearables will be able to sense and measure much more than basic motion. Hydration monitors, lactic acid monitors, and advanced motion interpretation are all features that we can expect to see in the next generation of fitness wearables. Sensors like these will be able to tell you if you're in the right zone for the length of training ride you're on, or if you're going to burn out too early. They'll be able to compare the motion and signals from your muscles to the profile of a professional to provide tips on being more efficient. Using population statistics, they'll warn you if a motion you're performing has been known to lead to injury. 
+Advanced wearables will be able to sense and measure much more than basic motion. Hydration monitors, lactic acid monitors, and advanced motion interpretation are all features that we can expect to see in the next generation of fitness wearables. Sensors like these will be able to tell you if you're in the right zone for the length of training ride you're on, or if you're going to burn out too early. They'll be able to compare the motion and signals from your muscles to the profile of a professional athlete to provide tips on being more efficient. Using population statistics, they'll warn you if a motion you're performing has been known to lead to injury. 
 
 Leonard MacEachern spoke on behalf of his company GestureLogic who will soon be starting a crowd funding campaign for their product, [LEO](http://leohelps.com/), which aims to fill this market niche. 
 
@@ -31,4 +31,14 @@ There are many protocols emerging to support the IoT including [paho](http://www
 Open hardware like the Arduino, Pi, and company will be equally as important as the software stack for ensuring the industry remains accessible to hobbyists and tinkerers alike. After his session Mike could be found giving demos of some IoT projects he's currently working on. I'm sold; my first Raspberry Pi kit will be arriving next week.
 
 
-### 
+### Smart Buildings - The Future of Construction Industry
+
+Dr. Pouria Ghods, speaking on behalf of [Giatec Scientific](http://www.giatecscientific.com/), defined 'infrastructure' as the physical structures needed to support our society. As people responsible for  infrastructure, we need to be able to sense changes, react to them, and optimize the way we perform maintenance - all while keeping things safe for public use. Traditionally this sensing has been done in two important stages: during construction, and on a schedule for the rest of the structure's lifespan.
+
+There was much that I did not know about concrete. For example, each truckload of concrete is tested three times during the pour to ensure consistency. As I understand it, this test involves putting a small cylinder of the dried concrete under a large amount of load to ensure that it meets requirements of the structure. If it were to fail, the poured section of that structure would need to be redone. Dr. Ghods proposes that we can do better than this: by monitoring the concrete both inside the truck and again once it has been poured into its forms, we can increase our confidence in real-time that the mix is correct and consistent.
+
+The state of the art for monitoring existing infrastructure still involves sending engineers on-site to probe and drag chains across concrete in search of faults and deterioration. Imagine instead a building that, after an earthquake, is able to report that it sensed an unusual amount of vibration on the 6th floor. Think of the time and money (and potentially, lives) that could be saved if a bridge could tell it's engineers exactly where cracking or corrosion was starting to occur, before it became a threat to public safety. 
+
+***
+
+Exciting times.
