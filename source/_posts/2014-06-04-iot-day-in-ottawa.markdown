@@ -1,19 +1,23 @@
 ---
 layout: post
 title: "IoT Day in Ottawa"
-date: 2014-06-04 11:18
+date: 2014-06-06 11:40
 comments: true
-categories: [IoT, Ottawa, Adobe]
-published: false
+categories: [IoT, Ottawa]
 ---
 The folks at [IoT Ottawa](http://www.meetup.com/iotottawa/events/184276702/) hosted an all-day meetup on the subject of the Internet of Things, right here in the Adobe Ottawa office tower. As someone new to the IoT field I found the many short, to-the-point sessions served as both a nice introduction to possibilities in the industry and also as a glimpse into the innovation happening right here in our backyard. What follows are my personal highlights from the day.
 
+{% img /images/iot-ottawa.jpg 'Dr. Ghods on Smart Buildings' 'Dr. Ghods on Smart Buildings' %}
+
+(thanks to [Aali R. Alizadeh](https://twitter.com/_Aali) for sharing this picture)
+
+<!-- more -->
 
 ### Next-Generation Wearable Tech: Fitness Intelligence
 
-As a cyclist and runner currently tracking my training using a number of devices (Garmin Edge, Forerunner, Strava iPhone app, Wahoo Kickr) and services (Strava, TrainerRoad, Fitbit) this talk really struck a chord with me. 
+As a cyclist and runner currently tracking my training using a number of devices (Garmin Edge, Forerunner, Strava iPhone app, Wahoo Kickr) and services (Strava, TrainerRoad, Fitbit), this talk really struck a chord with me. 
 
-In the most basic case, fitness wearables are simple accelerometers that interpret movement to calculate metrics including how many steps you've taken and floors you've climbed. When combined with some details of your physiology, they can estimate a number of other metrics including number of calories burned and total distance traveled. The next generation of wearables will be smarter, both in terms of the sensors they use and the way they analyze and interpret the signals captured.
+In the most basic case, fitness wearables are simply accelerometers that interpret movement to calculate metrics including how many steps you've taken and floors you've climbed. When combined with some details of your physiology, they can estimate a number of additional metrics including number of calories burned and total distance traveled. The next generation of wearables will be smarter, both in terms of the sensors they use and the way they analyze and interpret the signals captured.
 
 Advanced wearables will be able to sense and measure much more than basic motion. Hydration monitors, lactic acid monitors, and advanced motion interpretation are all features that we can expect to see in the next generation of fitness wearables. Sensors like these will be able to tell you if you're in the right zone for the length of training ride you're on, or if you're going to burn out too early. They'll be able to compare the motion and signals from your muscles to the profile of a professional athlete to provide tips on being more efficient. Using population statistics, they'll warn you if a motion you're performing has been known to lead to injury. 
 
