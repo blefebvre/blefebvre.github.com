@@ -52,7 +52,7 @@ I've also brought my [AEM Apps Kitchen Sink](https://github.com/blefebvre/aem-ph
 
 {% img /images/sample-updates/kitchen-sink-update.png 320 'Kitchen Sink OTA update' %}
 
-On the technical side, the Kitchen Sink's AEM page component has been completely re-written using [Sightly](http://docs.adobe.com/docs/en/aem/6-0/develop/sightly.html), and we don't think you'll miss JSP _at all_. Performance junkies will be pleased to learn that every page transition in the Kitchen Sink is handled by the awesome [NativePageTransitions plugin](http://plugins.telerik.com/plugin/native-page-transitions) by [Telerik](https://github.com/Telerik).
+On the technical side, the Kitchen Sink's AEM page component has been completely re-written using [Sightly](http://docs.adobe.com/docs/en/aem/6-0/develop/sightly.html), and we don't think you'll miss JSP _at all_. Performance junkies will be pleased to learn that every page transition in the Kitchen Sink is handled by the awesome [NativePageTransitions](http://plugins.telerik.com/plugin/native-page-transitions) plugin.
 
-As always, feedback or questions on the above are welcome. Please feel free to reach out to me [on twitter](https://twitter.com/brucelefebvre) or via the comments on this post.
+As always, feedback or questions on the above are welcome. Please feel free to reach out to me on [twitter](https://twitter.com/brucelefebvre) or via the comments on this post.
 
