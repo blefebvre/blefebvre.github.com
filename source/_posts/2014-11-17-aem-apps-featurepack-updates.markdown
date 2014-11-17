@@ -39,7 +39,7 @@ Pictured here is an app I created for my talk at [PhoneGap Day](http://pgday.pho
 
 ### Digital Publishing Suite Adobe Content Viewer Access
 
-The latest release of the Adobe Content Viewer can connect directly to an AEM authoring environment. Now AEM generated DPS content can be tested and validated without having to upload the content to the DPS Folio Publisher Service.
+The latest release of the Adobe Content Viewer can connect directly to an AEM authoring environment. Now AEM generated DPS content can be tested and validated without having to upload to the DPS Folio Publisher Service, enabling you to iterate more quickly on your content. 
 
 {% img /images/sample-updates/dps-acv.png 320 'Adobe Content Viewer' %}
 
