@@ -16,7 +16,7 @@ The feature pack includes a single user interface for managing all aspects of an
 
 <!-- more -->
 
-Towards the top left of this screenshot is the Details pane which enables configuration of app metadata including name and description, screenshots for app store submission, and update server URL amongst others. Heading clockwise is the Metrics pane which provides a high-level overview of key analytics data and gives access to Adobe Mobile Services for those wishing to dive further into the details. Last but not least is the PhoneGap Build tile which seamlessly integrates with Adobe's cloud build service, enabling users to compile apps across three platforms without installing an SDK or configuring a single environment variable (you're welcome, Windows users).
+Towards the top left of this screenshot is the Details pane which enables configuration of app metadata including name and description, screenshots for app store submission, and update server URL amongst others. Heading clockwise is the Metrics pane which provides a high-level overview of key analytics data and gives access to Adobe Mobile Services for those wishing to delve further into the details. Last but not least is the PhoneGap Build tile which seamlessly integrates with Adobe's cloud build service, enabling users to compile apps across three platforms without installing an SDK or configuring a single environment variable (you're welcome, Windows users).
 
 
 ### App Update Management
@@ -46,7 +46,7 @@ The latest release of the Adobe Content Viewer can connect directly to an AEM au
 
 ### But wait, there's more!
 
-To compliment the feature pack release, we've updated our [AEM Apps Starter Kit](https://github.com/Adobe-Marketing-Cloud/aem-phonegap-starter-kit) to take advantage of the state of the art in enterprise application development. Take a look at the README to see just how easy it is to bootstrap your own AEM Apps project today. 
+To complement the feature pack release, we've updated our [AEM Apps Starter Kit](https://github.com/Adobe-Marketing-Cloud/aem-phonegap-starter-kit) to take advantage of the state of the art in enterprise application development with AEM. Take a look at the README to see just how easy it is to bootstrap your own AEM Apps project today. 
 
 I've also brought my [AEM Apps Kitchen Sink](https://github.com/blefebvre/aem-phonegap-kitchen-sink) project up to spec. If you haven't tried it yet, the Kitchen Sink is an AEM App which demonstrates the usage of various Cordova/PhoneGap API's, implemented as authorable components in an application that can be updated over-the-air. 
 
