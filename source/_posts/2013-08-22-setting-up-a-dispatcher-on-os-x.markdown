@@ -77,6 +77,7 @@ After this line, add the following configuration:
 	        # enable dispatcher for ALL request. if this is too restrictive,
 	        # move it to another location
 	        SetHandler dispatcher-handler
+	        ModMimeUsePathInfo On
 	    </IfModule>
 	 
 	    Options FollowSymLinks
