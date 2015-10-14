@@ -1,9 +1,9 @@
 ---
 layout: post
 title: "Debugging an AEM App"
-date: 2015-10-13 22:51
+date: 2015-10-14 11:20
 comments: true
-categories: [AEM, CQ, Apps, PhoneGap, Starter Kit, AEM Apps, mobile]
+categories: [AEM, CQ, Apps, PhoneGap, debugging, AEM Apps, mobile]
 ---
 Does your AEM App get stuck at a blank screen when you run it via the Cordova CLI?
 
@@ -23,7 +23,7 @@ These steps assume you have a functional Cordova build toolchain (including Xcod
 
 From Safari's menu, open "Preferences...", and navigate to the "Advanced" tab. 
 
-Make sure the checkbox labelled "Show develop menu in menu bar" is checked:
+Make sure the checkbox labeled "Show develop menu in menu bar" is checked:
 
 {% img /images/debug-apps/dev.png 'Develop mode checkbox' %}
 
@@ -39,7 +39,7 @@ You will be greeted by a new Web Inspector Safari window that is connected to th
 
 #### Refresh to see initialization errors
 
-Navigate to the Console tab. You shouldn't see any errors, aside from perhaps Safari attempting to load source maps that have not been provided. In order to see any errors which occured during the initialization of the app, you will need to refresh the app. Located the refresh button and give it a click:
+Navigate to the Console tab. You shouldn't see any errors, aside from perhaps Safari attempting to load source maps that have not been provided. In order to see any errors which occurred during the initialization of the app, you will need to refresh the app. Locate the 'Reload page' button and give it a click (or: hit ⌘ + R on your keyboard):
 
 {% img /images/debug-apps/reload_app.png 'Reload app' %}
 
@@ -49,9 +49,25 @@ You should now see a few lines of debug logging, along with an error!
 
 In my case it appears that the ContentSync variable is missing. This variable is exported by the PhoneGap ContentSync plugin, so I would begin my bug investigation by seeing if this plugin has been successfully installed.
 
-If this issue is occurring on an app obtained from an open source repo, the console output is extremely valuable and should be included in the bug report.
+If this issue is occurring on an app obtained from an open source repo, the console output is extremely valuable and should be included in your bug report.
 
 
 ## Android
 
+Like above, ensure that you are able to run `cordova platform add android && cordova emulate android` without any CLI related errors before continuing. 
 
+
+#### Connect Chrome's web inspector to the app
+
+In Chrome, navigate to [chrome://inspect](chrome://inspect), and locate your app's WebView. Click the blue "inspect" link to open the remote web inspector connected to your Android emulator.
+
+{% img /images/debug-apps/chrome_inspect.png 'Chrome inspect' %}
+
+
+#### Refresh to view initialization errors
+
+Open the console tab and hit ⌘ + R on OS X, or Ctrl + R on Windows to refresh the current page of the application. In the screenshot below, I don't have any errors in the console but I can still view the output of console.log statements in my code, such as navigation between pages:
+
+{% img /images/debug-apps/chrome_console.png 'Remote app Web Inspector console' %}
+
+Happy debugging!
