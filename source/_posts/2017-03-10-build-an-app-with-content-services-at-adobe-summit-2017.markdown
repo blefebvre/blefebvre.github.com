@@ -8,7 +8,7 @@ categories: [AEM, Mobile, Apps, Content Sync, Content Services, CaaS, PhoneGap]
 
 <img src="/images/mixology.jpeg" alt="Image of the app that you'll build during our SUMMIT lab" title="You'll build this app! Yes, YOU!"/>
 
-Are you curious about how the next generation of apps will be built with Adobe's Experience Manager Content Services solution? Have a free hour and a half on Wednesday, March 22nd at 2PM? Join John Fait and I (AEM Mobile engineering) for an action-packed lab, "Unleash your app experience with AEM developer customizations" (Lab 3847), where we'll cover:
+Are you curious about how the next generation of apps will be built with Adobe's Experience Manager Content Services solution? Have a free hour and a half on Wednesday, March 22nd at 2PM? Join John Fait and I (AEM Mobile engineering) for an action-packed lab, "Unleash your app experience with AEM developer customizations" (<a href="http://bit.ly/summit-content-services-lab" target="_blank">Lab 3847</a>), where we'll cover:
 
 <!-- more -->
 
