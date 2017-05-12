@@ -56,6 +56,11 @@ div.page {
 	padding: 1em;
 }
 
+.brandImage {
+	vertical-align: middle;
+	margin-right: 11px;
+}
+
 @media (min-width: 800px) {
 	body {
 		background-color: #F3F3F3;
@@ -68,3 +73,5 @@ div.page {
 		padding: 1em;
 		border: 1px solid #B3B3B3;
 	}
+
+}
