@@ -36,7 +36,9 @@ In an effort to use this side project as a learning opportunity, I picked a tech
 To follow along with this article you will need a Mac, and the tools indicated in the "Installing dependencies" section of the [Getting Started page of the React Native docs](https://facebook.github.io/react-native/docs/getting-started.html#installing-dependencies). Please work through this section of the linked doc before moving on!
 
 
-## Getting started
+## TypeScript
+
+TypeScript is a tool to enable type support in JavaScript projects which I intend to use on every one of my JS projects going forward. I encourage you to give it a try -- for me, it felt like the piece that JS was missing. I am a huge fan of using it for both React Native as well as web development.
 
 I had initially written a medium-length novel on setting up TypeScript to work in a React Native app (RN going forward), but discovered an extremely helpful little project that offers a template to quickly bootstrap an RN app with built-in TypeScript support. Big thanks to GitHub user [emin93](https://github.com/emin93) for building and supporting the very handy [react-native-template-typescript](https://github.com/emin93/react-native-template-typescript) repo! I sure wish that I'd known about this when I initially bootstrapped my app.
 
@@ -145,7 +147,7 @@ Did you have an issue starting up the app? Try clearing the Metro cache, and run
     react-native start --reset-cache
 
 
-## Make a code change
+## Hot Reload
 
 You've made it this far. Finally, let's make a change to the code to see it reflected _immediately_ in the iOS simulator. To enable this super-slick workflow, we will need to enable Hot Reloading. In the iOS simulator, tap Command+D to open the development menu.
 
